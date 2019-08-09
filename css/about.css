@@ -93,3 +93,75 @@ p {
 .about-header img{
     margin-bottom:25px;
 }
+.grid{
+    display:flex;
+    width:800px;
+    margin:0px auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.grid div{
+    width: 45%;
+    border-bottom: 1px dotted black;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+}
+.grid h2{
+    margin-top:15px;
+}
+.grid button{
+    margin-top:30px;
+}
+
+.bottom{
+    width:800px;
+    margin:0px auto;
+    margin-bottom: 45px;
+}
+
+
+button {
+    background: #ffffff;
+    background-image: -webkit-linear-gradient(top, #ffffff, #e0e0e0);
+    background-image: -moz-linear-gradient(top, #ffffff, #e0e0e0);
+    background-image: -ms-linear-gradient(top, #ffffff, #e0e0e0);
+    background-image: -o-linear-gradient(top, #ffffff, #e0e0e0);
+    background-image: linear-gradient(to bottom, #ffffff, #e0e0e0);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #000000;
+    font-size: 25px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+button:hover {
+    background: #ffffff;
+    background-image: -webkit-linear-gradient(top, #ffffff, #d1d1d1);
+    background-image: -moz-linear-gradient(top, #ffffff, #d1d1d1);
+    background-image: -ms-linear-gradient(top, #ffffff, #d1d1d1);
+    background-image: -o-linear-gradient(top, #ffffff, #d1d1d1);
+    background-image: linear-gradient(to bottom, #ffffff, #d1d1d1);
+    text-decoration: none;
+  }
+
+  footer {
+    width: 100%;
+    background: black;
+}
+
+footer nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+footer nav a {
+    color: white;
+    text-decoration: none;
+}
