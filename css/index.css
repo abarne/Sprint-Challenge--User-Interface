@@ -66,6 +66,25 @@ p {
     line-height: 1.4;
 }
 
+*{
+    /* border:1px solid black !important; */
+}
+
+.header{
+    display:flex;
+    width:800px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    justify-content: space-between;
+    margin-top:20px;
+}
+.header a{
+    align-self: center;
+    text-decoration: none;
+    color: black;
+    
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
