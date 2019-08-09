@@ -148,7 +148,8 @@ button:hover {
   }
 
   footer {
-    width: 100%;
+    width: 45%;
+    margin:0px auto;
     background: black;
 }
 
